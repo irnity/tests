@@ -8,3 +8,6 @@ localhost run on xampp
 
 user: Andy
 password: XXt\*MsxGR$8d%r2
+
+server: phpMyAdmin
+user: root
