@@ -11,3 +11,5 @@ password: XXt\*MsxGR$8d%r2
 
 server: phpMyAdmin
 user: root
+
+rar: https://drive.google.com/file/d/1uoHIExL6rTywXl-NRpZ0McEhHo7UgAEj/view?usp=sharing
