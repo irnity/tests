@@ -1,0 +1,9 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+.field--items {
+  display: flex;
+  gap: 10px;
+}

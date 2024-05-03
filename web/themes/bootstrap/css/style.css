@@ -1,0 +1,187 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*---------------------*/
+
+/* title */
+.field.field--name-field-title.field--type-text.field--label-hidden.field--item {
+  width: 315px;
+  height: 70px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+/* title text */
+.field.field--name-field-title.field--type-text.field--label-hidden.field--item
+  p {
+  text-align: center;
+  font: 400 25px/35px "Roboto Slab";
+}
+
+/*---------------------*/
+
+/* items */
+.field.field--name-field-paragraph.field--type-entity-reference-revisions.field--label-hidden.field--items {
+  display: flex;
+  justify-content: space-between;
+  gap: 78px;
+  margin-bottom: 50px;
+}
+
+/* item */
+.field--item {
+}
+
+/* item box */
+.paragraph.paragraph--type--content.paragraph--view-mode--default {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 308px;
+  height: 242px;
+  gap: 30px;
+}
+
+/*---------------------*/
+
+/* image box*/
+.field.field--name-field-image.field--type-image.field--label-hidden.field--item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* image */
+.field.field--name-field-image.field--type-image.field--label-hidden.field--item
+  img {
+  width: 160px;
+  height: 160px;
+}
+
+/*---------------------*/
+
+/* text box*/
+.field.field--name-field-body.field--type-text-long.field--label-hidden.field--item {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 52px;
+  gap: 0px;
+  opacity: 0px;
+}
+/* text */
+.field.field--name-field-body.field--type-text-long.field--label-hidden.field--item
+  p {
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* button */
+.field.field--name-field-cta.field--type-link.field--label-hidden.field--item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 147px;
+  height: 45px;
+  padding: 15px 23px 15px 23px;
+  gap: 10px;
+  border-radius: 4px;
+  opacity: 0px;
+  background: rgba(232, 28, 36, 1);
+  margin-bottom: 24px;
+}
+.field.field--name-field-cta.field--type-link.field--label-hidden.field--item
+  a {
+  width: 101px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto Slab;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+/* question box */
+.paragraph.paragraph--type--question.paragraph--view-mode--default {
+  display: flex;
+  width: 730px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0 0 0;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(201, 197, 185, 1) 33%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: top;
+  background-size: 5px 1px;
+  background-repeat: repeat-x;
+}
+
+/* question */
+.field.field--name-field-question.field--type-text.field--label-hidden.field--item {
+  width: 540px;
+  height: 35px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto Slab;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* question text */
+.field.field--name-field-question-text.field--type-text.field--label-hidden.field--item {
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto Slab;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+.field.field--name-field-question-text.field--type-text.field--label-hidden.field--item
+  p {
+  border-bottom: 1px solid rgba(232, 28, 36, 1);
+}
+
+@media (max-width: 1200px) {
+  .field--items {
+    flex-direction: column;
+  }
+
+  .paragraph.paragraph--type--content.paragraph--view-mode--default {
+    flex-direction: column;
+  }
+
+  .field.field--name-field-image.field--type-image.field--label-hidden.field--item {
+    flex-direction: column;
+  }
+
+  .field.field--name-field-body.field--type-text-long.field--label-hidden.field--item {
+    flex-direction: column;
+  }
+}
