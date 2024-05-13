@@ -105,8 +105,10 @@
   background: rgba(232, 28, 36, 1);
   margin-bottom: 24px;
 }
+
 .field.field--name-field-cta.field--type-link.field--label-hidden.field--item
   a {
+  text-decoration: none;
   width: 101px;
   height: 24px;
   gap: 0px;
@@ -163,8 +165,10 @@
   line-height: 20px;
   text-align: center;
 }
-.field.field--name-field-question-text.field--type-text.field--label-hidden.field--item
-  p {
+.field.field--name-field-question-link.field--type-link.field--label-hidden.field--item
+  a {
+  text-decoration: none;
+  color: black;
   border-bottom: 1px solid rgba(232, 28, 36, 1);
 }
 
